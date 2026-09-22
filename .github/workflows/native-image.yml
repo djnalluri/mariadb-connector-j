@@ -27,7 +27,7 @@ jobs:
     timeout-minutes: 20
     strategy:
       matrix:
-        java: ['21', '24']
+        java: ['21', '25']
 
     services:
       mariadb:
@@ -95,7 +95,7 @@ jobs:
     timeout-minutes: 30
     strategy:
       matrix:
-        java: ['21', '24']
+        java: ['21', '25']
 
     services:
       mariadb:
